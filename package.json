@@ -8,17 +8,18 @@
     "Plugin",
     "Test"
   ],
-  "homepage": "https://github.com/nbalduzzi/fastify-knexjs#readme",
+  "homepage": "https://github.com/dburks/fastify-knexjs#readme",
   "bugs": {
-    "url": "https://github.com/nbalduzzi/fastify-knexjs/issues"
+    "url": "https://github.com/dburks/fastify-knexjs/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nbalduzzi/fastify-knexjs.git"
+    "url": "git+https://github.com/dburks/fastify-knexjs.git"
   },
   "license": "MIT",
   "author": "Nicolas Balduzzi",
   "contributors": [
+    "Don Burks (https://github.com/donburks)",
     "Patrick Heneise (https://github.com/PatrickHeneise)"
   ],
   "main": "index.js",
@@ -46,11 +47,11 @@
     ]
   },
   "dependencies": {
-    "fastify-plugin": "^3.0.0",
-    "knex": "^0.95.6"
+    "fastify-plugin": "^4.5.1",
+    "knex": "^3.1.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^12.1.4",
+    "@commitlint/cli": "^18.4.4",
     "@commitlint/config-conventional": "^12.1.4",
     "@semantic-release/commit-analyzer": "^8.0.1",
     "@semantic-release/github": "^7.2.3",
@@ -61,7 +62,7 @@
     "lint-staged": "^11.0.0",
     "mysql": "^2.18.1",
     "prettier": "^2.3.0",
-    "tap": "^15.0.9"
+    "tap": "^18.6.1"
   },
   "release": {
     "branches": [
